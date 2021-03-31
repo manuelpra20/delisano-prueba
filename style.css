@@ -73,6 +73,24 @@ img {
          Custom-content all   
  **************************************/
 
+
+/* --------------------------------------------------------------------------------- */
+
+.breadcrumbs-acne {
+    background: rgba(0, 0, 0, 0) url("images/banner-productos/acne.jpg") no-repeat scroll center center / cover;
+    padding: 100px 0 200px;
+    position: relative;
+}
+
+.breadcrumbs-collage-360 {
+    background: rgba(0, 0, 0, 0) url("images/banner-productos/collage-360.jpg") no-repeat scroll center center / cover;
+    padding: 100px 0 200px;
+    position: relative;
+}
+
+
+/* ---------------------------------------------------------------------------------- */
+
 .boxed-layout .wrapper {
     box-shadow: -3px 0 50px -2px rgba(0, 0, 0, 0.14);
     margin: auto;
@@ -1442,7 +1460,19 @@ img {
 ---------------*/
 
 .breadcrumbs {
-    background: rgba(0, 0, 0, 0) url("images/common/breadcrumbs.jpg") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url("images/common/banner-product.jpg") no-repeat scroll center center / cover;
+    padding: 100px 0 200px;
+    position: relative;
+}
+
+.breadcrumbs-almidon {
+    background: rgba(0, 0, 0, 0) url("images/common/banner-product.jpg") no-repeat scroll center center / cover;
+    padding: 100px 0 200px;
+    position: relative;
+}
+
+.breadcrumbs-harina-papa {
+    background: rgba(0, 0, 0, 0) url("images/common/banner-product.jpg") no-repeat scroll center center / cover;
     padding: 100px 0 200px;
     position: relative;
 }
