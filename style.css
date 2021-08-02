@@ -228,6 +228,7 @@ img {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
     z-index: 999;
     position: relative;
+    background-color: #B9E3A7;
 }
 
 .search-box {
@@ -455,6 +456,7 @@ img {
 
 .nivo-controlNav a:hover,
 .nivo-controlNav a.active {
+    display: none;
     background-color: #fff;
     border-color: #418003;
 }
@@ -3894,7 +3896,7 @@ a.continue-shopping:hover,
     25. Sticky css here
 ---------------------*/
 
-.sticky {
+/* .sticky {
     -webkit-animation: 600ms ease-in-out 0s normal none 1 running fadeInDown;
     animation: 600ms ease-in-out 0s normal none 1 running fadeInDown;
     background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
@@ -3904,7 +3906,8 @@ a.continue-shopping:hover,
     top: 0;
     width: 100%;
     z-index: 99999;
-}
+    background-color: #B9E3A7;
+} */
 
 .sticky .menu ul li a {
     padding: 36px 0;
