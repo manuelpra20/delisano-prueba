@@ -279,10 +279,10 @@
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="contact-form">
                             <p class="form-messege"></p>
-                            <form id="contact-form" action="mail.php" method="post">
-                                <input name="name" type="text" placeholder="Nombre">
-                                <input name="email" type="text" placeholder="Correo">
-                                <textarea name="message" placeholder="Mensaje"></textarea>
+                            <form id="contact-form" method="post" action="enviar.php">
+                                <input name="name" id="names" required type="text" placeholder="Nombre">
+                                <input name="email" id="email" required type="text" placeholder="Correo">
+                                <textarea name="mensaje" id="mensaje" required placeholder="Mensaje"></textarea>
                                 <button type="submit">Enviar</button>
                             </form>
                         </div>
